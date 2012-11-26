@@ -62,7 +62,7 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
-		grails.serverURL = "http://element-systems.com:8080/wali"
+		grails.serverURL = "http://element-systems.com:8080/Walkampf"
     }
     production {
         grails.logging.jul.usebridge = false
@@ -94,13 +94,13 @@ log4j = {
 }
 
 // Added by the Spring Security Core plugin:
-grails.plugins.springsecurity.userLookup.userDomainClassName = 'de.wali.user.SecUser'
-grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'de.wali.user.SecUserSecRole'
-grails.plugins.springsecurity.authority.className = 'de.wali.user.SecRole'
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'de.walkampf.user.SecUser'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'de.walkampf.user.SecUserSecRole'
+grails.plugins.springsecurity.authority.className = 'de.walkampf.user.SecRole'
 
 
 
-grails.plugins.springsecurity.facebook.domain.classname='de.wali.user.facebook.FacebookUser'
+grails.plugins.springsecurity.facebook.domain.classname='de.walkampf.user.facebook.FacebookUser'
 grails.plugins.springsecurity.facebook.appId='383146131768624'
 grails.plugins.springsecurity.facebook.secret='301ab8b3374668ab36d5eff160ed071e'
 grails.plugins.springsocial.facebook.clientId='383146131768624'
